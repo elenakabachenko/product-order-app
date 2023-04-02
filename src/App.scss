@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+.App {
+  margin: 32px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+
+  @media only screen and (max-width: 728px) {
+      flex-direction: column;
+      margin: 0;
+  }
+}
+
+
