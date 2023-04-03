@@ -2,7 +2,7 @@ import { useEffect } from 'react'
 
 import { fetchProducts } from '../../store/features/productSlice';
 import { useAppDispatch, useAppSelector } from '../../store/hooks';
-import {ICartItem, Product} from '../../types';
+import { ICartItem, Product } from '../../types';
 
 type ReturnType = {
   isLoading: boolean

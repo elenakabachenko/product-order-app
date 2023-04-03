@@ -1,6 +1,6 @@
-import {fetchProducts} from "./productSlice";
+import { fetchProducts } from './productSlice';
 
-import {store} from "../index";
+import { store } from '../index';
 
 const getProductListResponse = [
   {

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import ProductItem from './ProductItem';
-import {useProducts} from './useProducts';
+import { useProducts } from './useProducts';
 
 import { Product } from '../../types';
 
