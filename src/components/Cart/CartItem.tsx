@@ -1,6 +1,6 @@
 import React from 'react';
 
-import RemoveIcon from '../../assets/delete.svg';
+import RemoveIcon from '../../assets/icons/delete.svg';
 import {remove} from '../../store/features/cartSlice';
 import { useAppDispatch } from '../../store/hooks';
 import {ICartItem} from '../../types';

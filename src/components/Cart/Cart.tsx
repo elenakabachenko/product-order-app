@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 
 import CartItem from './CartItem';
 
-import ChevronIcon from '../../assets/chevron-down.svg'
+import ChevronIcon from '../../assets/icons/chevron-down.svg'
 import {useAppSelector} from '../../store/hooks';
 import { ICartItem } from '../../types';
 

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import AddToCart from '../../assets/add-to-cart.svg';
+import AddToCart from '../../assets/icons/add-to-cart.svg';
 import { add } from '../../store/features/cartSlice';
 import { useAppDispatch } from '../../store/hooks';
 import { Product } from '../../types';
